@@ -8,7 +8,7 @@
                 @search="onFilter"
     >
       <template slot="actions">
-        <cv-data-table-action @click="action1"></cv-data-table-action>
+        <!-- <cv-data-table-action @click="action1"></cv-data-table-action> -->
         <svg fill-rule="evenodd" height="16" name="download" role="img" viewBox="0 0 14 16" width="14" aria-label="Download" alt="Download">
           <title>Download</title>
           <path d="M7.506 11.03l4.137-4.376.727.687-5.363 5.672-5.367-5.67.726-.687 4.14 4.374V0h1v11.03z"></path>
@@ -86,12 +86,12 @@ export default {
     let more = [];
     for (let i = 0; i < 100; i++) {
       more.push([
-        this.ipsum(30),
-        this.ipsum(5),
-        this.numIpsum(false),
-        this.ipsum(20),
-        this.ipsum(20),
-        this.numIpsum()
+        "",
+        ".",
+        "a",
+        "b",
+        "c",
+        "d",
       ]);
     }
     this.data.push(...more);

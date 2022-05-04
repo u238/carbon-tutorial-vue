@@ -6,7 +6,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
     state: {
       count: 0,
-      apiUrl: "http://localhost/src/",
+      apiUrl: "http://localhost/",
       username: "",
       isLoggedIn: false,
       role: "",
