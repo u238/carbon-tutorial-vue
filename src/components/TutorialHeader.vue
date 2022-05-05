@@ -8,7 +8,6 @@
       Top Secret
     </cv-header-name>
 
-
     <cv-header-nav v-if="this.$store.state.isLoggedIn">
       <cv-header-menu-item to="/page1">1</cv-header-menu-item>
     </cv-header-nav>

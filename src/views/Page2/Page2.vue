@@ -11,7 +11,9 @@
       :initial-state-uploading="initialStateUploading"
       :multiple="multiple"
       :removable="removable"
-      :remove-aria-label="removeAriaLabel" ref="fileUploader">
+      :remove-aria-label="removeAriaLabel"
+      ref="fileUploader"
+    >
     </cv-file-uploader>
   </div>
 </template>
@@ -22,17 +24,17 @@ export default {
   components: {},
   data() {
     return {
-      kind: "",
-      label: "Choose files to upload",
-      helperText: "Select the files you want to upload",
-      dropTargetLabel: "",
-      accept: ".jpg,.png",
+      kind: '',
+      label: 'Choose files to upload',
+      helperText: 'Select the files you want to upload',
+      dropTargetLabel: '',
+      accept: '.jpg,.png',
       clearOnReselect: false,
       initialStateUploading: false,
       multiple: false,
       removable: false,
-      removeAriaLabel: "Custom remove aria label"
-}
+      removeAriaLabel: 'Custom remove aria label'
+    };
   },
   methods: {
     onInput: function(data) {
