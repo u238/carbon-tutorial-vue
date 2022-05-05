@@ -1,20 +1,7 @@
 <template>
   <div>
     SEC PAGE
-    <cv-file-uploader
-      :kind="kind"
-      :label="label"
-      :helperText="helperText"
-      :drop-target-label="dropTargetLabel"
-      :accept="accept"
-      :clear-on-reselect="clearOnReselect"
-      :initial-state-uploading="initialStateUploading"
-      :multiple="multiple"
-      :removable="removable"
-      :remove-aria-label="removeAriaLabel"
-      ref="fileUploader"
-    >
-    </cv-file-uploader>
+    
   </div>
 </template>
 
